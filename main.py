@@ -8,11 +8,11 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 import cv2
-from keras.models import Sequential
-from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 
 # Load the CSV data
-csv_file = 'candlestickchart/intraday_5min_IBM.csv'
+csv_file = 'currency_daily_BTC_EUR.csv'
 data = pd.read_csv(csv_file)
 
 # Convert 'timestamp' to datetime and set as index
