@@ -1,30 +1,199 @@
-# Stocks Predictor ![image (1)](https://github.com/user-attachments/assets/754a4a56-8dc8-4e50-b43b-c3c3da9d96c2)
+[<img src=https://raw.githubusercontent.com/unerrored/Stocks_Predictor/refs/heads/main/icon.png" align="right" width="25%" padding-right="350">]()
 
+# `Stocks Predictor`
 
-## Introduction
+#### <code>❯ Made by Qrexxed</code>
 
-Stocks Predictor is a program made in Python which predicts future stocks depending on the dataset the user has give such as **.csv** or **.xlsx**.
+<p align="left">
+	<img src="https://img.shields.io/github/license/unerrored/Stocks_Predictor?style=flat&logo=opensourceinitiative&logoColor=white&color=370164" alt="license">
+	<img src="https://img.shields.io/github/last-commit/unerrored/Stocks_Predictor?style=flat&logo=git&logoColor=white&color=370164" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/unerrored/Stocks_Predictor?style=flat&color=370164" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/unerrored/Stocks_Predictor?style=flat&color=370164" alt="repo-language-count">
+</p>
+<p align="left">
+		<em>Built with the tools and technologies:</em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
+</p>
 
-## How to use
+<br>
 
-1. First, you need to have the following programs installed:
+##### 🔗 Table of Contents
 
-> Python (3.12 recommended)
+- [📍 Overview](#-overview)
+- [👾 Features](#-features)
+- [📂 Repository Structure](#-repository-structure)
+- [🧩 Modules](#-modules)
+- [🚀 Getting Started](#-getting-started)
+    - [🔖 Prerequisites](#-prerequisites)
+    - [📦 Installation](#-installation)
+    - [🤖 Usage](#-usage)
+    - [🧪 Tests](#-tests)
+- [📌 Project Roadmap](#-project-roadmap)
+- [🤝 Contributing](#-contributing)
+- [🎗 License](#-license)
+- [🙌 Acknowledgments](#-acknowledgments)
 
-> Visual Studio Code or any other code editor
+---
 
-> a PC (PyDroid does not work.)
+## 📍 Overview
 
-2. Install the following requirements in Python by typing the following command:
+<code>❯ Stocks predictor is an app which predicts stocks from a local file (.csv or .xslx)</code>
 
+---
+
+## 👾 Features
+
+<code>❯ Accurate prediction model (thanks to ChatGPT)</code>
+<code>❯ Supports CSV, XSLX, and PNG charts (soon)</code>
+<code>❯ Doesn't take time to predict stocks.</code>
+
+---
+
+## 📂 Repository Structure
+
+```sh
+└── Stocks_Predictor/
+    ├── LICENSE
+    ├── README.md
+    ├── candlestickchart
+    │   ├── candlestick_chart.png
+    │   ├── chartgenerator.py
+    │   └── intraday_5min_IBM.csv
+    ├── example_stocks
+    │   ├── crypto_intraday_5min_ETH_USD.csv
+    │   ├── currency_daily_BTC_EUR.csv
+    │   ├── example
+    │   └── intraday_5min_IBM.csv
+    └── main.py
 ```
-pip install pandas numpy matplotlib mplfinance scikit-learn opencv-python keras
+
+---
+
+## 🧩 Modules
+
+<details closed><summary>Repository folder</summary>
+
+| File | Summary |
+| --- | --- |
+| [main.py](https://github.com/unerrored/Stocks_Predictor/blob/main/main.py) | <code>❯ Main program</code> |
+
+</details>
+
+<details closed><summary>candlestickchart</summary>
+
+| File | Summary |
+| --- | --- |
+| [chartgenerator.py](https://github.com/unerrored/Stocks_Predictor/blob/main/candlestickchart/chartgenerator.py) | <code>❯ Generates candlestick charts using .csv</code> |
+
+</details>
+
+---
+
+## 🚀 Getting Started
+
+### 🔖 Prerequisites
+
+**Python**: `version 3.12`
+
+### 📦 Installation
+
+Build the project from source:
+
+1. Clone the repository:
+```sh
+❯ git clone https://github.com/unerrored/Stocks_Predictor
 ```
 
-3. Download a .csv stocks file from [Alpha Vantage](https://www.alphavantage.co) or [Yahoo Finance](https://finance.yahoo.com/)
+2. Navigate to the project directory:
+```sh
+❯ cd Stocks_Predictor
+```
 
-4. Start the **main.py** file and replace the csv_file to your choice of stock file.
+3. Install the required dependencies using pip:
+```sh
+❯ pip install pandas numpy matplotlib mplfinance scikit-learn opencv-python keras
+```
 
-## Examples
+### 🤖 Usage
 
-![Figure_1 BTC and EUR](https://github.com/user-attachments/assets/0072effd-aa28-44e1-a522-a52e51eb9ddc)
+To run the project, run the following file:
+
+```sh
+❯ main.py
+```
+
+To run the candlestick chart generator, run the following file:
+
+```sh
+❯ candlestickchart/chartgenerator.py
+```
+
+---
+
+## 📌 Project Roadmap
+
+- [X] **`Task 1`**: <strike>Add XSLX support</strike>
+- [ ] **`Task 2`**: Add PNG support
+- [ ] **`Task 3`**: Create GUI for program
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Here are several ways you can contribute:
+
+- **[Report Issues](https://github.com/unerrored/Stocks_Predictor/issues)**: Submit bugs found or log feature requests for the `Stocks_Predictor` project.
+- **[Submit Pull Requests](https://github.com/unerrored/Stocks_Predictor/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+
+<details closed>
+<summary>Contributing Guidelines</summary>
+
+1. **Fork the Repository**: Start by forking the project repository to your github account.
+2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
+   ```sh
+   git clone https://github.com/unerrored/Stocks_Predictor
+   ```
+3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
+   ```sh
+   git checkout -b new-feature-x
+   ```
+4. **Make Your Changes**: Develop and test your changes locally.
+5. **Commit Your Changes**: Commit with a clear message describing your updates.
+   ```sh
+   git commit -m 'Implemented new feature x.'
+   ```
+6. **Push to github**: Push the changes to your forked repository.
+   ```sh
+   git push origin new-feature-x
+   ```
+7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
+8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
+</details>
+
+<details closed>
+<summary>Contributor Graph</summary>
+<br>
+<p align="left">
+   <a href="https://github.com{/unerrored/Stocks_Predictor/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=unerrored/Stocks_Predictor">
+   </a>
+</p>
+</details>
+
+---
+
+## 🎗 License
+
+This project is protected under the [MIT LICENSE](https://choosealicense.com/licenses/mit/). For more details, refer to the [LICENSE](https://raw.githubusercontent.com/unerrored/Stocks_Predictor/refs/heads/main/LICENSE/) file.
+
+---
+
+## 🙌 Acknowledgments
+
+- Icons8
+- Readme-AI
+- ChatGPT
+
+---
