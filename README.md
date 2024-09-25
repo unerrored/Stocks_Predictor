@@ -1,4 +1,4 @@
-[<img src=https://raw.githubusercontent.com/unerrored/Stocks_Predictor/refs/heads/main/icon.png" align="right" width="25%" padding-right="350">](https://github.com/Stocks_Predictor)
+![icons8-stocks-128](https://github.com/user-attachments/assets/ef29c1a1-4dc2-43a0-add2-86affd69c777)
 
 # `Stocks Predictor`
 
