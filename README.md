@@ -29,7 +29,6 @@
     - [🔖 Prerequisites](#-prerequisites)
     - [📦 Installation](#-installation)
     - [🤖 Usage](#-usage)
-    - [🧪 Tests](#-tests)
 - [📌 Project Roadmap](#-project-roadmap)
 - [🤝 Contributing](#-contributing)
 - [🎗 License](#-license)
@@ -46,7 +45,9 @@
 ## 👾 Features
 
 <code>❯ Accurate prediction model (thanks to ChatGPT)</code>
+
 <code>❯ Supports CSV, XSLX, and PNG charts (soon)</code>
+
 <code>❯ Doesn't take time to predict stocks.</code>
 
 ---
