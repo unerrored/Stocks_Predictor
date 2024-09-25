@@ -1,4 +1,4 @@
-[<img src=https://raw.githubusercontent.com/unerrored/Stocks_Predictor/refs/heads/main/icon.png" align="right" width="25%" padding-right="350">]()
+<img src=https://raw.githubusercontent.com/unerrored/Stocks_Predictor/refs/heads/main/icon.png" align="right" width="25%" padding-right="350">
 
 # `Stocks Predictor`
 
