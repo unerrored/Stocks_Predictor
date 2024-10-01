@@ -50,6 +50,8 @@
 
 <code>❯ Doesn't take time to predict stocks.</code>
 
+<code>❯ 50+ CSV files to test from!</code>
+
 ---
 
 ## 📂 Repository Structure
@@ -57,16 +59,17 @@
 ```sh
 └── Stocks_Predictor/
     ├── LICENSE
+    ├── currency_daily_BTC_EUR.csv
     ├── README.md
     ├── candlestickchart
     │   ├── candlestick_chart.png
     │   ├── chartgenerator.py
     │   └── intraday_5min_IBM.csv
     ├── example_stocks
-    │   ├── crypto_intraday_5min_ETH_USD.csv
-    │   ├── currency_daily_BTC_EUR.csv
-    │   ├── example
-    │   └── intraday_5min_IBM.csv
+    │   ├── crypto_5min.csv
+    │   ├── btc_euro_daily.csv
+    │   ├── intraday_5min.csv
+    │   └── ...
     └── main.py
 ```
 
@@ -125,7 +128,7 @@ To run the project, run the following file:
 ❯ main.py
 ```
 
-To run the candlestick chart generator, run the following file:
+To run the chart generator, run the following file:
 
 ```sh
 ❯ candlestickchart/chartgenerator.py
@@ -135,7 +138,7 @@ To run the candlestick chart generator, run the following file:
 
 ## 📌 Project Roadmap
 
-- [X] **`Task 1`**: <strike>Add XSLX support</strike>
+- [ ] **`Task 1`**: <strike>Add XSLX support</strike> <-- Won't be used
 - [ ] **`Task 2`**: Add PNG support
 - [ ] **`Task 3`**: Create GUI for program
 
@@ -146,7 +149,6 @@ To run the candlestick chart generator, run the following file:
 Contributions are welcome! Here are several ways you can contribute:
 
 - **[Report Issues](https://github.com/unerrored/Stocks_Predictor/issues)**: Submit bugs found or log feature requests for the `Stocks_Predictor` project.
-- **[Submit Pull Requests](https://github.com/unerrored/Stocks_Predictor/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
 
 <details closed>
 <summary>Contributing Guidelines</summary>
@@ -195,6 +197,6 @@ This project is protected under the [MIT LICENSE](https://choosealicense.com/lic
 
 - Icons8
 - Readme-AI
-- ChatGPT
+- Plotly
 
 ---
