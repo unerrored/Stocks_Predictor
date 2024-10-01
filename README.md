@@ -50,8 +50,6 @@
 
 <code>❯ Doesn't take time to predict stocks.</code>
 
-<code>❯ 50+ CSV files to test from!</code>
-
 ---
 
 ## 📂 Repository Structure
