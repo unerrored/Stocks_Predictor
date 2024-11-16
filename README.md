@@ -2,6 +2,8 @@
 
 # `Stocks Predictor`
 
+## This project is now deprecated, for newer updates, go to [this repository](https://github.com/unerrored/StocksPredictor).
+
 #### <code>❯ Made by Qrexxed</code>
 
 <p align="left">
